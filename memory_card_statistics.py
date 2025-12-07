@@ -159,7 +159,7 @@ layout_card = QVBoxLayout()
 
 
 layout_card.addLayout(layout_line1, stretch=2)
-layout_card.addLayout(layout_line2, stretch=8)
+layout_card.addLayout(layout_line2, stretch=7)
 layout_card.addStretch(1)
 layout_card.addLayout(layout_line3, stretch=1)
 layout_card.addStretch(1)
@@ -177,5 +177,6 @@ btn_OK.clicked.connect(click_ok)
 
 window.show()
 app.exec()
+
 
 
